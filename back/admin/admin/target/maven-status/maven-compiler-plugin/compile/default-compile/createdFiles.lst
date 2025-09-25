@@ -1,0 +1,9 @@
+com\aviationparts\admin\controller\AvaliacaoController.class
+com\aviationparts\admin\model\Avaliacao.class
+com\aviationparts\admin\model\LoginRequest.class
+com\aviationparts\admin\controller\AuthController.class
+com\aviationparts\admin\config\WebSecurityConfig.class
+com\aviationparts\admin\repository\AvaliacaoRepository.class
+com\aviationparts\admin\config\CorsConfig$1.class
+com\aviationparts\admin\AdminApplication.class
+com\aviationparts\admin\config\CorsConfig.class
