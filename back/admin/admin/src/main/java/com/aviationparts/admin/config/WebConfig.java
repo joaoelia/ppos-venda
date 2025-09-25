@@ -15,7 +15,8 @@ public class WebConfig {
                 registry.addMapping("/**")
                     .allowedOrigins("https://ppos-venda.onrender.com")
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                    .allowedHeaders("*");
+                    .allowedHeaders("*")
+                    .allowCredentials(true);
             }
         };
     }
