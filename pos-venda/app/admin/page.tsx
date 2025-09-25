@@ -34,7 +34,7 @@ export default function AdminPage() {
   const [filterNota, setFilterNota] = useState("todas")
 
   useEffect(() => {
-  fetch("http://localhost:8080/api/avaliacoes")
+  fetch("https://ppos-venda-back.onrender.com/api/avaliacoes")
       .then(res => res.json())
       .then(data => {
         // Mapeia os campos do backend para o formato esperado pelo frontend

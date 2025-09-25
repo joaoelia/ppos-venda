@@ -104,7 +104,7 @@ export default function AvaliacaoPage() {
       status: formData.notaGeral >= 4 ? "POSITIVA" : formData.notaGeral <= 2 ? "NEGATIVA" : "NEUTRA"
     };
 
-    fetch("http://localhost:8080/api/avaliacoes", {
+  fetch("https://ppos-venda-back.onrender.com/api/avaliacoes", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(avaliacao),
